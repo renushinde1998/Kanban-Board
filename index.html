@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanban Board</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/34ab4e14e6.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!-- Tool Box-->
+    <div class="heading">
+       <h1>Kanban Board</h1> 
+    </div>
+    <div class="toolbox-cont">
+        <div class="toolbox-priority-cont">
+            <div class="lightpink color">
+                <p class="para">To be done</p>
+            </div>
+            <div class="lightgreen color">
+                <p class="para">In Progress</p>
+            </div>
+            <div class="lightblue color">
+                <p class="para">Validated</p>
+            </div>
+            <div class="black color">
+                <p class="para">Completed</p>
+            </div>
+        </div>
+        <div class="action-btn-cont">
+            <div class="add-btn">
+                <i class="fa-solid fa-plus"></i>
+                <p class="btn">Add task</p>
+            </div>
+
+            <div class="remove-btn">
+                <i class="fa-solid fa-xmark"></i>
+                <p class="btn">Remove task</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Task Ticket-->
+   <div class="main-ticket-cont">
+    <div class="ticket-cont">
+        <div class="ticket-color"></div>
+        <div class="ticket-id">12345</div>
+        <div class="task-area">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, explicabo!
+            
+        </div>
+    </div>
+   </div>
+
+
+    <!-- Ticket creation-->
+    <div class="modal-cont">
+        <textarea class="textArea-cont" 
+        placeholder="Enter Task Information"></textarea>
+        <div class="priority-colors-cont">
+            <div class="lightpink priority-color"></div>
+            <div class="lightgreen priority-color"></div>
+            <div class="lightblue priority-color"></div>
+            <div class="black priority-color"></div>
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
