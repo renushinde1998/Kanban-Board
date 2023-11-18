@@ -133,6 +133,14 @@ body{
     justify-content: space-evenly;
 }
 
+.ticket-lock{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 110px;
+    margin-right:2px ;
+    font-size: 1.5rem;
+}
+
 .priority-color{
     height: 4rem;
     width: 8rem;
@@ -156,7 +164,6 @@ background-color: coral;
 
 .ticket-color{
 height: 1rem;
-background-color: black;
 }
 
 .ticket-id{
@@ -170,4 +177,8 @@ font-size: 1rem;
 background-color: coral;
 display: flex;
 flex-wrap: wrap;
+}
+
+.active{
+    border: 5px solid lightsalmon;
 }
